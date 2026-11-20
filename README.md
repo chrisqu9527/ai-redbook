@@ -3,8 +3,8 @@
 > **不写一行代码，从聊天新手到一人 AI 工作流**
 > 由公众号 **「AI博物志」**（C叔）发起并长期免费开源维护。
 
-[![在线阅读](https://img.shields.io/badge/在线阅读-chrisqulab.com-C93B2B?style=for-the-badge)](https://chrisqulab.com)
-[![当前工具版本](https://img.shields.io/badge/工具版本-v2026.11-D97706?style=for-the-badge)](https://chrisqulab.com/00-start/tools-map)
+[![在线阅读](https://img.shields.io/badge/在线阅读-red.chrisqulab.com-C93B2B?style=for-the-badge)](https://red.chrisqulab.com)
+[![当前工具版本](https://img.shields.io/badge/工具版本-v2026.11-D97706?style=for-the-badge)](https://red.chrisqulab.com/00-start/tools-map)
 [![开源协议](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-4B5563?style=for-the-badge)](#开源协议)
 
 ---
@@ -13,7 +13,7 @@
 
 小白朋友不需要在 GitHub 里翻文件，直接打开清爽排版版主站阅读（免登录、手机电脑均适配）：
 
-👉 **主站直达**：[https://chrisqulab.com](https://chrisqulab.com)
+👉 **主站直达**：[https://red.chrisqulab.com](https://red.chrisqulab.com)
 
 ---
 

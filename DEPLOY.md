@@ -1,6 +1,6 @@
-# 🚀 上线与域名 `chrisqulab.com` 绑定保姆级指南
+# 🚀 上线与域名 `red.chrisqulab.com` 绑定保姆级指南
 
-这份指南帮你把本地建好的《普通人 AI 实战红宝书》以 **0 服务器费用** 挂到你的域名 `https://chrisqulab.com`，并跑通后续“写完即自动发布”的流水线。
+这份指南帮你把本地建好的《普通人 AI 实战红宝书》以 **0 服务器费用** 挂到子域名 `https://red.chrisqulab.com`（保留根域名 `chrisqulab.com` 给以后其他项目/总站使用），并跑通后续“写完即自动发布”的流水线。
 
 ---
 
@@ -51,8 +51,8 @@ git push -u origin main
    * **构建输出目录（Build output directory）**：`docs/.vitepress/dist`
    * **环境变量（可选）**：`NODE_VERSION` = `22`
 3. 点击 **保存并部署**，等待约 1 分钟部署完成。
-4. 进入该项目的 **自定义域（Custom domains）** → 点击 **设置自定义域** → 输入 `chrisqulab.com` → 点击 **激活域**（Cloudflare 会自动添加解析并签发 HTTPS 证书，几分钟后即可直接访问 `https://chrisqulab.com`！）。
-5. 建议再顺手加一个 `www.chrisqulab.com`，确保读者不管输不输 `www` 都能正常打开。
+4. 进入该项目的 **自定义域（Custom domains）** → 点击 **设置自定义域** → 输入 `red.chrisqulab.com` → 点击 **激活域**（Cloudflare 会自动添加解析并签发 HTTPS 证书，几分钟后即可直接访问 `https://red.chrisqulab.com`！）。
+5. 根域名 `chrisqulab.com` 预留给你未来的总主页或其他项目（如 `tools.chrisqulab.com` 等），无需改动。
 
 > **备选方案**：如果你想直接用 **GitHub Pages**，本仓库已经内置了 `.github/workflows/deploy.yml` 和 `docs/public/CNAME`；只需在 GitHub 仓库 `Settings -> Pages -> Source` 选 **GitHub Actions**，并把域名 DNS 解析指向 GitHub Pages 即可。
 
@@ -68,6 +68,6 @@ git commit -m "更新第01章：20分钟做出第一个作品"
 git push
 ```
 
-- **域名主站 `chrisqulab.com`**：约 30 秒后自动上线更新！
+- **红宝书主站 `red.chrisqulab.com`**：约 30 秒后自动上线更新！
 - **飞书国内镜像**：配置好 `scripts/sync-feishu.mjs` 中的飞书知识空间 ID 后，运行一次即可同步到飞书知识库。
 - **公众号「AI博物志」**：把本章改写成 C 叔口吻的实测/踩坑故事文发布，文末引导回复【红宝书】！

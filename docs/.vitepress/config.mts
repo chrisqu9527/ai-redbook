@@ -17,12 +17,12 @@ export default defineConfig({
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: '普通人 AI 实战红宝书' }],
     ['meta', { property: 'og:description', content: '不会写代码的普通人，从零到用 AI 做出自己的第一个作品。' }],
-    ['meta', { property: 'og:url', content: 'https://chrisqulab.com' }]
+    ['meta', { property: 'og:url', content: 'https://red.chrisqulab.com' }]
   ],
 
   // 站点地图配置（利于搜索引擎收录）
   sitemap: {
-    hostname: 'https://chrisqulab.com'
+    hostname: 'https://red.chrisqulab.com'
   },
 
   // 开启最后更新时间显示（依赖 Git 提交记录）
@@ -178,7 +178,7 @@ export default defineConfig({
     // 页脚版权信息
     footer: {
       message: '由公众号「AI博物志」免费开源维护 · 遵循 CC BY-NC-SA 4.0 协议',
-      copyright: 'Copyright © 2026 C叔 · chrisqulab.com'
+      copyright: 'Copyright © 2026 C叔 · red.chrisqulab.com'
     }
   }
 })
