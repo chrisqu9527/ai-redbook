@@ -1,7 +1,15 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-// 尝试加载用户以后放入的真实成品图；未放入时平滑展示内置高颜值成品样图
+// 动态图片路径映射：以后把真实成品图放入 docs/public/images/ 对应文件名即自动替换，未放入时平滑展示内置高颜值成品样图
+const workSrc: Record<string, string> = {
+  card: '/images/work-card.jpg',
+  poster: '/images/work-poster.jpg',
+  video: '/images/work-video.jpg',
+  story: '/images/work-story.jpg',
+  author: '/images/cshu-work.jpg'
+}
+
 const imgLoaded = ref<Record<string, boolean>>({
   card: true,
   poster: true,
@@ -43,7 +51,7 @@ const onQrError = () => {
           <div class="work-preview preview-card">
             <img
               v-if="imgLoaded.card"
-              src="/images/work-card.jpg"
+              :src="workSrc.card"
               alt="一张信息卡片成品图"
               class="real-work-img"
               @error="markMissing('card')"
@@ -67,7 +75,7 @@ const onQrError = () => {
           <div class="work-preview preview-poster">
             <img
               v-if="imgLoaded.poster"
-              src="/images/work-poster.jpg"
+              :src="workSrc.poster"
               alt="一张海报成品图"
               class="real-work-img"
               @error="markMissing('poster')"
@@ -89,7 +97,7 @@ const onQrError = () => {
           <div class="work-preview preview-video">
             <img
               v-if="imgLoaded.video"
-              src="/images/work-video.jpg"
+              :src="workSrc.video"
               alt="一条短视频成品图"
               class="real-work-img"
               @error="markMissing('video')"
@@ -111,7 +119,7 @@ const onQrError = () => {
           <div class="work-preview preview-story">
             <img
               v-if="imgLoaded.story"
-              src="/images/work-story.jpg"
+              :src="workSrc.story"
               alt="一个一分钟历史小故事成品图"
               class="real-work-img"
               @error="markMissing('story')"
@@ -173,7 +181,7 @@ const onQrError = () => {
         <div class="author-visual">
           <img
             v-if="imgLoaded.author"
-            src="/images/cshu-work.jpg"
+            :src="workSrc.author"
             alt="C叔的成品展示"
             class="real-work-img"
             @error="markMissing('author')"
