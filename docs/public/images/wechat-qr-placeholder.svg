@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" fill="none">
+  <!-- 背景卡片 -->
+  <rect width="220" height="220" rx="14" fill="#FFF8F5" stroke="#E8C6BC" stroke-width="2" stroke-dasharray="6 4"/>
+  <!-- 模拟二维码定位框 -->
+  <rect x="28" y="28" width="40" height="40" rx="4" stroke="#C93B2B" stroke-width="5"/>
+  <rect x="40" y="40" width="16" height="16" rx="2" fill="#C93B2B"/>
+  <rect x="152" y="28" width="40" height="40" rx="4" stroke="#C93B2B" stroke-width="5"/>
+  <rect x="164" y="40" width="16" height="16" rx="2" fill="#C93B2B"/>
+  <rect x="28" y="152" width="40" height="40" rx="4" stroke="#C93B2B" stroke-width="5"/>
+  <rect x="40" y="164" width="16" height="16" rx="2" fill="#C93B2B"/>
+  <!-- 中央文字提示 -->
+  <text x="110" y="106" text-anchor="middle" fill="#8C2318" font-family="sans-serif" font-size="14" font-weight="bold">替换为你的公众号二维码</text>
+  <text x="110" y="128" text-anchor="middle" fill="#7A625B" font-family="sans-serif" font-size="11">docs/public/images/</text>
+  <text x="110" y="144" text-anchor="middle" fill="#7A625B" font-family="sans-serif" font-size="11">wechat-qr.png</text>
+</svg>

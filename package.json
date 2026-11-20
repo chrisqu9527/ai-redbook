@@ -1,0 +1,17 @@
+{
+  "name": "ai-redbook",
+  "version": "1.0.0",
+  "description": "《普通人 AI 实战红宝书》——不写一行代码，从聊天新手到一人 AI 工作流（公众号「AI博物志」免费开源）",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
