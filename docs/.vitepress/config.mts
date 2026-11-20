@@ -36,6 +36,7 @@ export default defineConfig({
     nav: [
       { text: '开始学', link: '/01-start/01-first-project' },
       { text: '全部课程', link: '/courses' },
+      { text: '每日妙用', link: '/daily' },
       { text: '工具表', link: '/museum/tools-map' }
     ],
 
@@ -60,6 +61,7 @@ export default defineConfig({
         text: '实用参考',
         collapsed: false,
         items: [
+          { text: 'AI 每日妙用', link: '/daily' },
           { text: '工具表（国内免费好用）', link: '/museum/tools-map' },
           { text: '我是 C 叔', link: '/01-start/' }
         ]

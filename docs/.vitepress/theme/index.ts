@@ -3,6 +3,7 @@ import DefaultTheme from 'vitepress/theme'
 import WechatCTA from './components/WechatCTA.vue'
 import ChapterMeta from './components/ChapterMeta.vue'
 import SimpleHome from './components/SimpleHome.vue'
+import DailyHot from './components/DailyHot.vue'
 import './custom.css'
 
 // 自定义 VitePress 主题入口：
@@ -19,5 +20,6 @@ export default {
     app.component('ChapterMeta', ChapterMeta)
     app.component('SimpleHome', SimpleHome)
     app.component('WechatCTA', WechatCTA)
+    app.component('DailyHot', DailyHot)
   }
 }
