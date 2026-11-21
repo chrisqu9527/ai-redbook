@@ -1,6 +1,6 @@
 {
   "date": "2026-11-21",
-  "status": "draft",
+  "status": "published",
   "items": [
     {
       "title": "长合同报告容易漏看，拆开再让AI对页码",
@@ -31,13 +31,14 @@
       "title": "同事临时甩活，用AI写态度好但不接活的回复",
       "scene": "工作",
       "problem": "下班前有人在群里或私聊把本该自己做的活丢过来，直接拒绝怕显得不配合，接下来又要替人加班。",
-      "how": "打开DeepSeek或豆包，把对方原话、你手头不能耽误的任务，以及你最多能帮到哪一步发给它，让它给出私聊温和、群里讲清职责等几个版本，选一个自己再改两句发出去。",
+      "how": "打开DeepSeek或豆包，把对方原话、你手头不能耽误的任务，以及你最多能帮到哪一步发给它，让它给出私聊温和、群里讲清职责等三个版本，选一个自己再改两句发出去。",
       "prompt": "同事发来这句话，想把活甩给我：【粘贴原话】。我的情况是：【岗位和手头不能耽误的任务】。我最多只能：【比如只给空白模板，不代做】。请写3个微信回复：私聊温和挡回、群里讲清职责、说明自己领导交办的截止时间。语气自然，先表示理解，再说明走不开，只给方法不接手。每个不超过80字。",
       "tool": "DeepSeek",
       "domestic": "能用",
       "price": "免费",
       "source_name": "X @zhurichmond",
-      "source_url": "https://x.com/zhurichmond/status/2123615948309688345"
+      "source_url": "https://x.com/zhurichmond/status/2123615948309688345",
+      "lesson": "/01-start/02-mindset-and-prompts"
     },
     {
       "title": "写催款提醒，先拦住AI擅自补上后果",
@@ -49,7 +50,8 @@
       "domestic": "能用",
       "price": "免费",
       "source_name": "X @loxvenzfd",
-      "source_url": "https://x.com/loxvenzfd/status/2123749657310384319"
+      "source_url": "https://x.com/loxvenzfd/status/2123749657310384319",
+      "lesson": "/01-start/02-mindset-and-prompts"
     },
     {
       "title": "做好的幻灯片怕出错，让AI把数字对回原文",
