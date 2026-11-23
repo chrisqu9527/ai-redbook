@@ -1,13 +1,13 @@
 {
   "date": "2026-11-23",
-  "status": "draft",
+  "status": "published",
   "items": [
     {
       "title": "作业不愿做，拍照给AI做成闯关练习",
       "scene": "带娃",
       "problem": "女儿不愿做减法练习，家长干讲又提不起她的兴趣，题目就在作业本上。",
-      "how": "把练习页拍下来发给豆包，让它按原题做成闯关练习，每五题一关，做对了给星星或小奖励。算式尽量保持竖式，方便在手机上点选。也可以做完后再拍一页，让它帮忙核对对错。",
-      "prompt": "这是我家孩子的数学作业照片。请按照片里的原题做成一个能在手机上玩的闯关练习：每5题一关，做对了给星星和小奖励，升级时解锁一张小图。算式用竖式，按键要大，一屏显示完，不要上下翻。保留原题，不要改数字。",
+      "how": "把练习页拍下来发给豆包，让它按原题分关出题，每五题一关。你家孩子答完一关，豆包判对错并发星星。做完后可再拍一页让它核对。",
+      "prompt": "这是我家孩子的数学作业照片。请按照片里的原题做成闯关练习，每5题一关，一次只发一关，我回复答案后你判对错，全对就发星星和一句夸奖。保留原题，不要改数字。",
       "tool": "豆包",
       "domestic": "能用",
       "price": "免费",
@@ -24,8 +24,7 @@
       "domestic": "能用",
       "price": "免费",
       "source_name": "X @ProsperThePhilo",
-      "source_url": "https://x.com/ProsperThePhilo/status/2124055958385041482",
-      "heat": "点赞 9，收藏 19"
+      "source_url": "https://x.com/ProsperThePhilo/status/2124055958385041482"
     },
     {
       "title": "用AI回买家前，先对照退货运费库存",
@@ -37,8 +36,7 @@
       "domestic": "能用",
       "price": "免费",
       "source_name": "X @AllenBobicn",
-      "source_url": "https://x.com/AllenBobicn/status/2124072067591033257",
-      "heat": "点赞 2"
+      "source_url": "https://x.com/AllenBobicn/status/2124072067591033257"
     },
     {
       "title": "开会记不住，用通义边开边转成文字",
@@ -50,8 +48,7 @@
       "domestic": "能用",
       "price": "部分免费",
       "source_name": "X @qianjinavi6",
-      "source_url": "https://x.com/qianjinavi6/status/2124134735995605291",
-      "heat": "点赞 13"
+      "source_url": "https://x.com/qianjinavi6/status/2124134735995605291"
     },
     {
       "title": "睡前编故事，让孩子成为故事里的主角",
@@ -76,7 +73,7 @@
       "price": "免费",
       "source_name": "X @qianruo_talks",
       "source_url": "https://x.com/qianruo_talks/status/2124104314797097239",
-      "heat": "点赞 4"
+      "lesson": "/01-start/02-mindset-and-prompts"
     }
   ]
 }
